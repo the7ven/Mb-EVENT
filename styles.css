@@ -1,9 +1,15 @@
 *{
     margin: 0;
     padding: 0;
-    
+   
     font-family: "Raleway", sans-serif;
 }
+
+body{
+    overflow-x: hidden;
+}
+
+
 
 header{
     display: flex;
@@ -44,31 +50,37 @@ header{
     align-items: center;
     align-content: center;
     min-height: 100vh;
-    background-image:  linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),   url(images/omkar-jadhav-sSKDtq9vQl0-unsplash.jpg);
+    background-image:  linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),   url(images/BG01.jpg);
     background-position: center;
     background-size: cover;
     padding: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+   
+   
+    
+    
 } 
     
 
 
 .hero h1{
-    color: crimson;
-    font-size: 3rem;
+    color: rgb(255, 255, 255);
+    font-size: 8rem;
+    -webkit-text-stroke: 1px white;
+    -webkit-text-fill-color: rgba(0, 0, 0, 0);
 }
 
 .hero h3{
-    color: white;
+    color: rgb(156, 154, 154);
     font-size: 2rem;
     margin-bottom: 20px;
 }
 
 .hero h5{
-    color: aliceblue;
+    color: rgb(167, 204, 236);
 }
+
+
+
 
 .btn1 {
  
@@ -80,7 +92,7 @@ header{
   font-weight: bold;
   transition: all ease-in-out .3s;
   display: inline-block;
-  margin-top: 20px;
+ 
 }
 
 .btn1:hover{
@@ -117,7 +129,7 @@ header{
 }
 
 .about-pic1 img{
-     width: 250px;
+     width: 300px;
      border-radius: 30px;
      border: 5px solid white;
      rotate: -15deg;
@@ -126,7 +138,7 @@ header{
 }
 
 .about-pic2 img{
-    width: 250px;
+    width: 300px;
     border-radius: 30px;
     border: 5px solid white;
    
@@ -134,7 +146,7 @@ header{
 
 
 .about-pic3 img{
-    width: 250px;
+    width: 300px;
     border-radius: 30px;
     border: 5px solid white;
     rotate: 15deg;
@@ -149,6 +161,7 @@ header{
 
 
 .services-section {
+   
     background-color: #000000;
     padding: 60px 0;
 }
@@ -182,6 +195,7 @@ header{
 }
 .service-card:hover {
     transform: translateY(-15px);
+    cursor: pointer;
 }
 .service-icon {
     font-size: 3em;
@@ -203,10 +217,52 @@ header{
     color: #7f8c8d;
 }
 
+
 .cocktail-section{
+   
+    background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url(images/bgcocktails.jpg);
+    background-size: cover;
+    background-position: center;
     background-color: #000000;
+    min-height: 70vh;
    
 }
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.grid-container h3,p{
+    color: #ddd;
+}
+.product {
+    border: 5px solid #ddd;
+    padding: 15px;
+    text-align: center;
+}
+.product img {
+    width:150px ;
+    height: auto;
+}
+@media (max-width: 768px) {
+
+  
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (max-width: 480px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+/*
+
 
 
 .cocktails {
@@ -272,12 +328,18 @@ header{
     background-color: #000000;
 }
 
+*/
+
 .contact{
+   
+    background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url(images/bg-contact.jpg);
+    background-size: cover;
+    background-position: center;
     background-color: #000000;
     padding-top: 50px;
 }
 .container {
-    max-width: 600px;
+    max-width: 400px;
     margin: 0 auto;
     padding: 20px;
     background-color: rgba(0, 0, 0, 0);
