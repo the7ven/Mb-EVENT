@@ -379,8 +379,29 @@ footer {
     }
 
     .about-pic1, .about-pic2, .about-pic3 {
+        margin-top:30px ;
         margin-bottom: 20px;
     }
+
+
+    .about-pic1 img{
+        width: 100px;
+       
+        
+       
+   }
+   
+   .about-pic2 img{
+       width: 100px;
+       
+      
+   }
+   
+   
+   .about-pic3 img{
+       width: 100px;
+       
+   }
 
     .service-card {
         flex: 1 1 100%;
