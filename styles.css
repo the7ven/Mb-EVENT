@@ -1,0 +1,437 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    font-family: "Raleway", sans-serif;
+}
+
+header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    
+
+}
+
+.logo{
+    padding-left: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.nav-links {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin: 20px;
+    transition: all ease-in-out .3s;
+    font-weight: 600;
+  
+}
+
+.nav-links a:hover{
+    color: crimson;
+    text-decoration: underline;
+}
+
+.hero{
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    min-height: 100vh;
+    background-image:  linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),   url(images/omkar-jadhav-sSKDtq9vQl0-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+} 
+    
+
+
+.hero h1{
+    color: crimson;
+    font-size: 3rem;
+}
+
+.hero h3{
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.hero h5{
+    color: aliceblue;
+}
+
+.btn1 {
+ 
+  text-decoration: none;
+  padding: 10px 20px;
+  border: 1px solid white;
+  background: none;
+  color: white;
+  font-weight: bold;
+  transition: all ease-in-out .3s;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.btn1:hover{
+    background-color: crimson;
+}
+
+
+.socials img{
+   width: 30px;
+   margin: 5px;
+}
+
+.about{
+   padding: 30px; 
+   min-height: 70vh;
+   background-color: black;
+}
+
+
+.about h1{
+    text-align: center;
+    font-size: 2.5rem;
+    color: white;
+}
+
+
+.section-about{
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+
+.about-pic1 img{
+     width: 250px;
+     border-radius: 30px;
+     border: 5px solid white;
+     rotate: -15deg;
+     
+    
+}
+
+.about-pic2 img{
+    width: 250px;
+    border-radius: 30px;
+    border: 5px solid white;
+   
+}
+
+
+.about-pic3 img{
+    width: 250px;
+    border-radius: 30px;
+    border: 5px solid white;
+    rotate: 15deg;
+}
+
+.about-text h4{
+    color: rgb(255, 255, 255);
+    margin-bottom: 30px;
+   
+}
+
+
+
+.services-section {
+    background-color: #000000;
+    padding: 60px 0;
+}
+.services-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.section-title {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 40px;
+    color: #ffffff;
+}
+.services-grid {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 15px;
+}
+.service-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px white;
+    padding: 30px;
+    text-align: center;
+    flex: 1 1 300px;
+    max-width: 300px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+.service-card:hover {
+    transform: translateY(-15px);
+}
+.service-icon {
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: #e74c3c;
+}
+
+.service-icon img{
+    width: 250px;
+    border-radius: 10px;
+}
+.service-title {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    color: #2c3e50;
+}
+.service-description {
+    font-size: 1em;
+    color: #7f8c8d;
+}
+
+.cocktail-section{
+    background-color: #000000;
+   
+}
+
+
+.cocktails {
+    text-align: center;
+    padding: 100px 0;
+   
+}
+.cocktails h1 {
+    font-size: 2.5em;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+.subtitle {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+.btn {
+    background-color: transparent;
+    border: 2px solid #ff00ff;
+    color: #ff00ff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 18px;
+   
+}
+.cocktail {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+  
+   
+}
+.cocktail-image {
+    flex: 1;
+}
+.cocktail-image img {
+    width: 350px;
+    rotate: 5deg;
+   
+}
+.cocktail-info {
+    flex: 1;
+    padding-left: 50px;
+}
+.cocktail-name {
+    font-size: 36px;
+    color: #e4e4e4;
+    margin-bottom: 20px;
+}
+.cocktail-description {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+.learn-more {
+    color: #ff00ff;
+    text-decoration: none;
+}
+
+.load{
+    padding: 30px;
+    background-color: #000000;
+}
+
+.contact{
+    background-color: #000000;
+    padding-top: 50px;
+}
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 5px;
+}
+h1 {
+    text-align: center;
+    color: #fff;
+}
+form {
+    display: grid;
+    gap: 10px;
+}
+label {
+    font-weight: bold;
+    color: #ffffff;
+}
+input, textarea {
+   
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #333;
+    color: #fff;
+}
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+button:hover {
+    background-color: #45a049;
+}
+
+
+
+footer {
+    background-color: #1d1c1c;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+   
+}
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.footer-section {
+    margin: 10px;
+}
+.footer-section h3 {
+    margin-bottom: 10px;
+}
+.footer-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+.footer-section ul li {
+    margin-bottom: 5px;
+}
+.footer-bottom {
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 1px solid #555;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .logo {
+        padding-left: 0;
+        margin-bottom: 10px;
+    }
+
+    .nav-links {
+        justify-content: center;
+    }
+
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero h3 {
+        font-size: 1.5rem;
+    }
+
+    .section-about {
+        padding: 20px;
+    }
+
+    .about-pic1, .about-pic2, .about-pic3 {
+        margin-bottom: 20px;
+    }
+
+    .service-card {
+        flex: 1 1 100%;
+        max-width: none;
+    }
+
+    .services-grid {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .cocktail {
+        flex-direction: column;
+    }
+
+    .cocktail-image, .cocktail-info {
+        flex: 1 1 100%;
+        max-width: none;
+    }
+
+    .cocktail-image img {
+        width: 200px;
+        rotate: 5deg;
+       
+    }
+
+    .footer-section {
+        flex: 1 1 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .hero h3 {
+        font-size: 1.2rem;
+    }
+
+    .btn1, .btn {
+        font-size: 16px;
+        padding: 8px 16px;
+    }
+
+    .services-grid {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+}
