@@ -5,9 +5,6 @@
     font-family: "Raleway", sans-serif;
 }
 
-body{
-    overflow-x: hidden;
-}
 
 
 
@@ -426,6 +423,10 @@ footer {
 
     .nav-links {
         justify-content: center;
+    }
+
+    .hero{
+        min-height: 70vh;
     }
 
     .hero h1 {
