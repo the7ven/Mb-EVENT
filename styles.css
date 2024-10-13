@@ -179,7 +179,7 @@ header{
 }
 .services-grid {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: center;
     gap: 15px;
 }
@@ -251,6 +251,13 @@ header{
 }
 @media (max-width: 768px) {
 
+    .services-grid {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
   
     .grid-container {
         grid-template-columns: repeat(3, 1fr);
@@ -261,7 +268,7 @@ header{
 
   
     .grid-container {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
