@@ -12,3 +12,9 @@
   ScrollReveal().reveal('.contact h1', { delay: 500, origin: 'top' });
   ScrollReveal().reveal('.contact form', { delay: 600, origin: 'bottom' });
   ScrollReveal().reveal('footer', { delay: 500, origin: 'bottom' });
+
+
+
+
+  function toggleMenu() {
+    document.getElementById("navMenu").classList.toggle("show"); }
