@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    
+    box-sizing: border-box;
     font-family: "Raleway", sans-serif;
 }
 
@@ -9,52 +9,16 @@ html{
     overflow-x: hidden; 
 }
 
-.burger-menu {
-    display: inline-block;
-    top: 10px;
-    cursor: pointer;
-    padding: 10px;
-}
-.burger-icon {
-    display: none;
-    width: 30px;
-    height: 3px;
-    background-color: #ffffff;
-    margin: 6px 0;
-    transition: 0.4s;
-}
-.nav-menu {
-    display: none;
-    position: absolute;
-    top: 60px;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    padding: 12px 16px;
-    z-index: 1;
-}
-.nav-menu a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-}
-.nav-menu a:hover {
-    background-color: #ddd;
-}
-.show {
-    display: block;
-}
 
 
 
 header{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     background-color: black;
-    gap: 60px;
+   
     
 
 }
@@ -362,74 +326,7 @@ header{
     }
 }
 
-/*
 
-
-
-.cocktails {
-    text-align: center;
-    padding: 100px 0;
-   
-}
-.cocktails h1 {
-    font-size: 2.5em;
-    color: #ffffff;
-    margin-bottom: 20px;
-}
-.subtitle {
-    font-size: 24px;
-    margin-bottom: 40px;
-}
-.btn {
-    background-color: transparent;
-    border: 2px solid #ff00ff;
-    color: #ff00ff;
-    padding: 10px 20px;
-    text-decoration: none;
-    font-size: 18px;
-   
-}
-.cocktail {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-  
-   
-}
-.cocktail-image {
-    flex: 1;
-}
-.cocktail-image img {
-    width: 350px;
-    rotate: 5deg;
-   
-}
-.cocktail-info {
-    flex: 1;
-    padding-left: 50px;
-}
-.cocktail-name {
-    font-size: 36px;
-    color: #e4e4e4;
-    margin-bottom: 20px;
-}
-.cocktail-description {
-    font-size: 18px;
-    margin-bottom: 20px;
-    color: #ffffff;
-}
-.learn-more {
-    color: #ff00ff;
-    text-decoration: none;
-}
-
-.load{
-    padding: 30px;
-    background-color: #000000;
-}
-
-*/
 
 .contact{
    
@@ -517,25 +414,19 @@ footer {
 @media screen and (max-width: 768px) {
 
     header{
-        display: flex;
-        justify-content: space-between;
+     
         align-items: center;
+        flex-direction: column;
     }
 
-    .burger-icon {
-     
-        display: block;
-    }
+  
     
     .logo {
         padding-left: 0;
         margin-bottom: 10px;
     }
 
-    .nav-links a {
-       
-        display: none;
-    }
+   
 
     .hero{
         min-height: 55vh;
