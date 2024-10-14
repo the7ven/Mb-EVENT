@@ -349,6 +349,8 @@ footer {
 
    .section-about{
     flex-direction: column;
+    align-content: center;
+    text-align: center;
    }
 
    .about-pic1, .about-pic2, .about-pic3 {
