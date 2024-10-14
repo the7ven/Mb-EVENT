@@ -129,8 +129,12 @@ header{
    
 }
 
+.about-container{
+    display: flex;
+}
+
 .about-pic1 img{
-     width: 300px;
+     width: 250px;
      border-radius: 30px;
      border: 5px solid white;
      rotate: -15deg;
@@ -139,7 +143,7 @@ header{
 }
 
 .about-pic2 img{
-    width: 300px;
+    width: 250px;
     border-radius: 30px;
     border: 5px solid white;
    
@@ -147,7 +151,7 @@ header{
 
 
 .about-pic3 img{
-    width: 300px;
+    width: 250px;
     border-radius: 30px;
     border: 5px solid white;
     rotate: 15deg;
