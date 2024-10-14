@@ -385,14 +385,22 @@ footer {
     height: auto;
 }
 
-.hero{
-    min-height: 55vh;
+header{
+    min-height: 75vh;
    
 }
 
 .about-container{
     padding-top: 30px;
 }
+
+.hero{
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    padding-top: 5rem;
+    
+} 
 
 
 
