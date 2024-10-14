@@ -16,7 +16,7 @@ html{
     padding: 10px;
 }
 .burger-icon {
-   
+    display: none;
     width: 30px;
     height: 3px;
     background-color: #ffffff;
