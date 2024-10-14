@@ -26,6 +26,8 @@ nav{
 
 
 .nav-links a{
+   
+    align-content: center;
     text-decoration: none;
     color: white;
     margin: 20px;
@@ -335,9 +337,14 @@ footer {
       align-content: center;
     
     }
-    .nav-links{
-        padding: 20px;
+   
+    .nav-links a{
+        display: flex;
+        justify-content: center;
+      
     }
+
+   
 
    .hero h1{
      font-size: 2.5rem;
@@ -388,7 +395,7 @@ footer {
 }
 
 header{
-    min-height: 75vh;
+    min-height: 80vh;
    
 }
 
@@ -400,9 +407,17 @@ header{
     text-align: center;
     align-items: center;
     align-content: center;
-    padding-top: 5rem;
+    padding-top: 2rem;
+   
     
 } 
+
+.logo{
+    background-color: #000000;
+    padding: 12px 30px;
+   border-radius: 30px;
+   border: 5px solid white;
+}
 
 
 
